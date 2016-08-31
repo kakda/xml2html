@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/java/com/mcnc/xml2html/validate
+END
+AllowFileType.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/java/com/mcnc/xml2html/validate/AllowFileType.java
+END
+ValidXml.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/java/com/mcnc/xml2html/validate/ValidXml.java
+END
+ValidXmlValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/java/com/mcnc/xml2html/validate/ValidXmlValidator.java
+END
+AllowFileTypeValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/java/com/mcnc/xml2html/validate/AllowFileTypeValidator.java
+END

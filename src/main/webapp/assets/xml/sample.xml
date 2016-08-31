@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pages>
+  <page id="page1" width="480" height="800">
+	<label image_path="" coordinateX="10" coordinateY="45" width="" height="">
+      <text font_size="37" font_face="HelveticaNeue" font_color="" font_bold="Y">STORE</text>
+    </label>
+
+	<image image_path="images/title_icon_search.png" coordinateX="362" coordinateY="45" width="42" height="42">
+    </image>
+	<image image_path="images/title_icon_category.png" coordinateX="420" coordinateY="45" width="42" height="42">
+    </image>
+
+	<image image_path="images/tob_banner.png" coordinateX="10" coordinateY="97" width="460" height="119">
+    </image>
+
+	<label image_path="" coordinateX="14" coordinateY="229" width="264" height="24">
+		<text font_size="19" font_face="HelveticaNeue" font_color="RGB(57,115,182)" font_bold="Y">EDITOR'S CHOICE</text>
+	</label>
+
+	<label image_path="" coordinateX="14" coordinateY="286" width="264" height="40">
+		<text font_size="37" font_face="HelveticaNeue" font_color="RGB(57,57,57)" font_bold="N">Retro Camera</text>
+	</label>
+
+	<label image_path="" coordinateX="14" coordinateY="256" width="264" height="40">
+		<text font_size="37" font_face="HelveticaNeue" font_color="RGB(57,57,57)" font_bold="N">$13.99</text>
+	</label>
+
+	<image image_path="images/icon_favorite_on.png" coordinateX="14" coordinateY="336" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="30" coordinateY="336" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="46" coordinateY="336" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="62" coordinateY="336" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_off.png" coordinateX="78" coordinateY="336" width="15" height="15">
+    </image>
+
+	<image image_path="images/app_image.png" coordinateX="10" coordinateY="343" width="264" height="214">
+    </image>
+
+	<image image_path="images/secondary_banner_01.png" coordinateX="10" coordinateY="557" width="264" height="68">
+    </image>
+
+	<image image_path="images/secondary_banner_02.png" coordinateX="10" coordinateY="629" width="264" height="68">
+    </image>
+
+	<button image_path="images/custom_section_btn_01.png" coordinateX="282" coordinateY="229" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	<button image_path="images/custom_section_btn_02.png" coordinateX="282" coordinateY="307" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	<button image_path="images/custom_section_btn_03.png" coordinateX="282" coordinateY="385" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	<button image_path="images/custom_section_btn_04.png" coordinateX="282" coordinateY="463" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	<button image_path="images/custom_section_btn_05.png" coordinateX="282" coordinateY="541" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	<button image_path="images/custom_section_btn_06.png" coordinateX="282" coordinateY="619" width="188" height="78">
+      <link>page2.html</link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+
+	<image image_path="images/page_indicator_01.png" coordinateX="214" coordinateY="714" width="7" height="6">
+    </image>
+	<image image_path="images/page_indicator_02.png" coordinateX="229" coordinateY="714" width="7" height="6">
+    </image>
+	<image image_path="images/page_indicator_02.png" coordinateX="244" coordinateY="714" width="7" height="6">
+    </image>
+	<image image_path="images/page_indicator_02.png" coordinateX="259" coordinateY="714" width="7" height="6">
+    </image>
+
+	<image image_path="images/toolbar_bg.png" coordinateX="0" coordinateY="732" width="480" height="68">
+    </image>
+
+	<button image_path="images/icon_more.png" coordinateX="16" coordinateY="748" width="42" height="42">
+      <link></link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+	
+	<button image_path="images/downloads_button.png" coordinateX="156" coordinateY="743" width="150" height="48">
+      <link></link>
+      <text font_size="20" font_face="Roboto" font_color="RGB(51,51,51)" font_bold="N">Downloads</text>
+    </button>
+
+	<button image_path="images/icon_back.png" coordinateX="424" coordinateY="748" width="42" height="42">
+      <link></link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+
+  </page>
+  <page id="page2" width="480" height="800">
+	<label image_path="" coordinateX="10" coordinateY="45" width="" height="">
+      <text font_size="37" font_face="HelveticaNeue" font_color="" font_bold="Y">Pixlr Express</text>
+    </label>
+
+	<image image_path="images/title_icon_search.png" coordinateX="362" coordinateY="45" width="42" height="42">
+    </image>
+	<image image_path="images/title_icon_category.png" coordinateX="420" coordinateY="45" width="42" height="42">
+    </image>
+
+	<image image_path="images/app_icon.png" coordinateX="15" coordinateY="110" width="62" height="62">
+    </image>
+	<label image_path="" coordinateX="10" coordinateY="45" width="" height="">
+      <text font_size="37" font_face="HelveticaNeue" font_color="" font_bold="Y">Pixlr Express</text>
+    </label>
+
+	<label image_path="" coordinateX="85" coordinateY="107" width="260" height="24">
+		<text font_size="19" font_face="HelveticaNeue" font_color="RGB(128,128,128)" font_bold="N">Autodesk Inc.</text>
+	</label>
+
+	<label image_path="" coordinateX="85" coordinateY="131" width="260" height="28">
+		<text font_size="21" font_face="HelveticaNeue" font_color="RGB(57,57,57)" font_bold="N">$0.99</text>
+	</label>
+
+	<image image_path="images/icon_favorite_on.png" coordinateX="85" coordinateY="159" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="101" coordinateY="159" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="116" coordinateY="159" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_on.png" coordinateX="132" coordinateY="159" width="15" height="15">
+    </image>
+	<image image_path="images/icon_favorite_off.png" coordinateX="147" coordinateY="159" width="15" height="15">
+    </image>
+
+	<button image_path="images/buy_button.png" coordinateX="357" coordinateY="116" width="104" height="50">
+      <link>page1.html</link>
+      <text font_size="25" font_face="HelveticaNeue" font_color="RGB(248,246,239)" font_bold="N">BUY</text>
+    </button>
+
+	<image image_path="images/screen_shot.png" coordinateX="15" coordinateY="253" width="254" height="452">
+    </image>
+
+	<image image_path="images/screen_shot_01.png" coordinateX="362" coordinateY="253" width="98" height="98">
+    </image>
+	
+	<image image_path="images/screen_shot_02.png" coordinateX="362" coordinateY="367" width="98" height="98">
+    </image>
+
+	<image image_path="images/screen_shot_03.png" coordinateX="362" coordinateY="481" width="98" height="98">
+    </image>
+
+	<image image_path="images/screen_shot_04.png" coordinateX="362" coordinateY="595" width="98" height="98">
+    </image>
+
+	<image image_path="images/toolbar_bg.png" coordinateX="0" coordinateY="732" width="480" height="68">
+    </image>
+
+	<button image_path="images/icon_more.png" coordinateX="16" coordinateY="748" width="42" height="42">
+      <link></link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+
+	<button image_path="images/icon_back.png" coordinateX="424" coordinateY="748" width="42" height="42">
+      <link></link>
+      <text font_size="" font_face="" font_color="" font_bold=""></text>
+    </button>
+
+  </page>
+</pages>

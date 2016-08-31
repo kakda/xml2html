@@ -1,0 +1,89 @@
+<html xmlns:jsp="http://java.sun.com/JSP/Page" 
+      xmlns:c="http://java.sun.com/jsp/jstl/core" 
+      xmlns:fn="http://java.sun.com/jsp/jstl/functions" 
+      xmlns:tiles="http://tiles.apache.org/tags-tiles" 
+      xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form">  
+
+    <jsp:output doctype-root-element="HTML" doctype-system="about:legacy-compat" />
+    
+    <jsp:directive.page contentType="text/html;charset=UTF-8" />  
+    <jsp:directive.page pageEncoding="UTF-8" /> 
+    
+    <spring:url var="css_waple_url" value="/resources/css/waple.css"/>
+    <spring:url var="js_jquery_url" value="/resources/js/jquery.js"/>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<title>Waple simulator</title>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="${css_waple_url}"/>
+		<script src="${js_jquery_url}" type="text/javascript"><jsp:text/></script>
+<script type="text/javascript">
+<![CDATA[
+$(function() {
+	
+	$('#slt-project').change(function() {
+		
+		//console.log($(this).val());
+		$('ul > li').remove();
+		var p = $(this).val();
+		$.get('/xml2html/pages?projectNo='+p, function(response) {
+			//console.log(response);
+			$.each(response.pages, function(index, page) {
+				//console.log(page);
+				$('#ul-page').append(
+					$('<li>').attr('url', page.url).attr('p-width', page.width).attr('p-height',page.height).text(page.name).click(function() {
+						var url = $(this).attr('url');
+						var width = $(this).attr('p-width');
+						var height = $(this).attr('p-height');
+						$('#ifm-viewer').attr('src', url);
+						$('#ifm-viewer').width(width);
+						$('#ifm-viewer').height(height);
+						$('#div-warp').width(width);
+						$('#div-warp').height(height);
+						$('#spn-width').text(width);
+						$('#spn-height').text(height);
+					})
+				);
+			});
+		});
+		
+		
+	});
+	
+});
+]]>
+</script>
+	
+	</head>
+	
+  	<body>
+  		<div id="wrapper">
+	    	<div id="header">
+	        	<h1>Waple</h1>
+	            <h2>simulator</h2>
+	        </div>
+	    	<div id="side-left">
+	    		
+	        	<select id="slt-project">
+	            	<option value="">Select Project</option>
+	            	<c:forEach var="project" items="${projects}" varStatus="status">
+	            		<option value="${project.projectNo}"><c:out value="${project.projectNo}"/></option>
+	            	</c:forEach>
+	            </select>
+	            <ul id="ul-page">
+	            </ul>            
+	        </div>
+	        <div id="content">
+	        	<div class="saple-pro"><p>해상도  <span id="spn-width">480</span> * <span id="spn-height">800</span></p></div>
+				<div id="div-warp" style="width:480px;height:800px;overflow:hidden;border: 2px solid red;margin: 30px 0 20px 100px;">
+				<iframe src="" id="ifm-viewer" scrolling="no" border="no" maginwidth="0" marginheight="0" frameborder="0">
+	             <p>Your browser does not support iframes.</p>
+	            </iframe>
+				</div>
+	            
+	        </div>    
+	    </div>
+	</body>
+</html>

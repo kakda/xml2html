@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/smart2/!svn/ver/6865/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/element
+END
+javascript.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/smart2/!svn/ver/6874/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/element/javascript.xsl
+END
+css.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/smart2/!svn/ver/6983/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/element/css.xsl
+END
+html.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/smart2/!svn/ver/6874/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/element/html.xsl
+END

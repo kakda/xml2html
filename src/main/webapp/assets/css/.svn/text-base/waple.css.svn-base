@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, html, a, p, iframe, h1, h2, h3, h4, h5, h6, select, ul {margin: 0; padding: 0;}
+body, html {height:100%; font: 1em Verdana, Geneva, sans-serif; color: #999;}
+#wrapper {width: 960px; min-width: 960px; margin: 0 auto; position:relative;}
+#header {height: 70px; padding-top: 30px; border-bottom: 2px solid #4A7EBB; }
+#header h1 {font-size: 1.5em; color: #000; text-shadow: 1px 0 0 #999; float: left; }
+#header h2 {float: left; margin-left: 15px; }
+#side-left {width: 20%; float: left; }
+#side-left select {border: 1px solid #ddd; height: 24px; margin: 20px 10px; }
+#side-left ul {padding: 30px 0 0 30px}
+#side-left a { color: #999; text-decoration:none; }
+#side-left a:hover {text-decoration:underline; }
+#content {float: left; border-left: 2px solid #4A7EBB; padding: 2%;width: 75%;}
+#content .saple-pro{background: #DCE6F2; border-radius: 8px; padding: 10px;}
+/*iframe {width: 480px; height: 800px; margin: 30px 0 20px 100px;border: 2px solid red;}*/
+

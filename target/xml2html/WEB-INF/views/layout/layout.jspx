@@ -1,0 +1,57 @@
+<html xmlns:jsp="http://java.sun.com/JSP/Page" 
+      xmlns:c="http://java.sun.com/jsp/jstl/core" 
+      xmlns:fn="http://java.sun.com/jsp/jstl/functions" 
+      xmlns:tiles="http://tiles.apache.org/tags-tiles" 
+      xmlns:spring="http://www.springframework.org/tags">  
+
+    <jsp:output doctype-root-element="HTML" doctype-system="about:legacy-compat" />
+    
+    <jsp:directive.page contentType="text/html;charset=UTF-8" />  
+    <jsp:directive.page pageEncoding="UTF-8" /> 
+    
+    
+	<spring:url var="css_bootstrap_url" value="/resources/css/bootstrap.min.css"/>
+	<spring:url var="css_doc_url" value="/resources/css/doc.css"/>
+	
+	<spring:url var="js_jquery_url" value="/resources/js/jquery.js"/>
+	<spring:url var="js_bootstrap_url" value="/resources/js/bootstrap.min.js"/>
+	<spring:url var="js_html5shiv_url" value="/resources/js/html5shiv.js"/>
+	<spring:url var="js_respond_url" value="/resources/js/respond.min.js"/>
+		
+	<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<title><tiles:insertAttribute name="title" ignore="true" /></title>
+		
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="${css_bootstrap_url}"/>
+		<link rel="stylesheet" type="text/css" media="screen" href="${css_doc_url}"/>
+		
+		<script src="${js_jquery_url}" type="text/javascript"><jsp:text/></script>
+		<script src="${js_bootstrap_url}" type="text/javascript"><jsp:text /></script>
+		
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!--[if lt IE 9]>
+			<script src="${js_html5shiv_url}" type="text/javascript"><jsp:text /></script>
+			<script src="${js_respond_url}" type="text/javascript"><jsp:text /></script>
+	    <![endif]-->
+	</head>
+	
+  	<body>
+  			
+  			<!-- Menu -->
+  			<tiles:insertAttribute name="menu" />
+  			
+  			<!-- Body -->
+			<div class="container">
+				<div class="row-fluid">
+					<tiles:insertAttribute name="message" />
+					<tiles:insertAttribute name="body" />
+				</div>
+			</div>
+			
+			<!-- Footer -->
+			<hr />
+  			<tiles:insertAttribute name="footer" />
+	</body>
+</html>

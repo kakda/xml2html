@@ -1,0 +1,19 @@
+<div id="header" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<spring:url var="mcnc_url" value="http://www.mcnc.co.kr"/>
+	<footer class="container" role="contentinfo">
+
+
+		<ul class="bs-masthead-links">
+			<li class="current-version">XML2HTML V.1</li>
+			<li>Powered By: <a href="${mcnc_url}" target="_blank">Mobile C 	<![CDATA[ &C ]]></a></li>
+		</ul>
+	</footer>
+
+</div>

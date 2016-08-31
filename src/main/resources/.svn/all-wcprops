@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/resources
+END
+base.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/smart2/!svn/ver/7448/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/base.xsl
+END
+transform.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/smart2/!svn/ver/6791/development%20tools/new_xml2html/trunk/xml2html/src/main/resources/transform.xsl
+END

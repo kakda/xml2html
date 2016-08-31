@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/smart2/!svn/ver/7446/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout
+END
+menu.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout/menu.jspx
+END
+footer.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout/footer.jspx
+END
+layout.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout/layout.jspx
+END
+message.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/smart2/!svn/ver/6708/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout/message.jspx
+END
+simulator.jspx
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/smart2/!svn/ver/7446/development%20tools/new_xml2html/trunk/xml2html/src/main/webapp/WEB-INF/views/layout/simulator.jspx
+END
